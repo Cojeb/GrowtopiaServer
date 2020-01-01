@@ -9,7 +9,7 @@ This project has been published under GNU AFFERO GPL license, so you need to **p
 1. Refactor whole code, it is very hard readable and there might be problems with maintaining it
 2. Try get some normal DB working or atleast save all files as BSON or some binary format
 3. Write load balancer, it is very CPU expensive part because it calculates BCrypt hashes and access to database
-4. Try possible to write multiple servers which only share between themselves possibly world list, player list and boradcast queue
+4. Try possible to write multiple servers which only share between themselves possibly world list, player list and broadcast queue
 5. Extend data which are saved now - there should be saved current clothes, inventory, login time, register time and maybe tracing hashes if you want to do proper ban system also in worlds there should be saved block extras (enabled, water, fire, etc.) and dropped items
 6. Write event pool - this is needed to make delayed actions like respawning
 7. Make heavy events asynchronous with possibly some good thread count (probably one or two) and connect them to event pool or use callbacks
